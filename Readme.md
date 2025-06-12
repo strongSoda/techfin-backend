@@ -181,3 +181,8 @@ curl -X POST http://localhost:3000/api/transactions/bulk-upload \
 ## Notes & Assumptions
 
 - Each user sees only their transactions
+
+## Demo
+
+- [PART 1](https://www.loom.com/share/ddbbf3696170465d8b2d0f1c7d53e638?sid=768b4dbd-a521-4ed7-ac58-48ee7c96ecff)
+- [PART 2](https://www.loom.com/share/21823b7bd3c74e70b3eae251cba33e44?sid=dc29af22-ede4-47b7-b35f-7c1871f7b062)
