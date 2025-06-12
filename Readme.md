@@ -133,8 +133,7 @@ curl -X POST http://localhost:3000/api/transactions \
 Get a paginated list of transactions.
 
 ```bash
-curl -X GET http://localhost:3000/api/transactions?page=1&limit=10 \
-  -H "Authorization: Bearer <token>"
+curl -X GET http://localhost:3000/api/transactions?limit=10 -H "Authorization: Bearer <token>"
 ```
 
 #### `PATCH /api/transactions/:id`
