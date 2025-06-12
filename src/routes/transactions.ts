@@ -16,7 +16,7 @@ router.use((req, res, next) => {authenticate(req, res, next)});
 
 router.post('/', validateBody(transactionSchema), createTransaction);
 router.get('/', (req, res) => {getTransactions(req, res)});
-router.put('/:id', validateBody(updateTransactionSchema), (req, res) => {updateTransaction(req, res)});
+router.patch('/:id', validateBody(updateTransactionSchema), (req, res) => {updateTransaction(req, res)});
 router.delete('/:id', (req, res) => {
   softDeleteTransaction(req, res);
 });
