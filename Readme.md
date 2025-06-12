@@ -144,7 +144,7 @@ Edit an existing transaction.
 curl -X PATCH http://localhost:3000/api/transactions/<id> \
   -H "Authorization: Bearer <token>" \
   -H "Content-Type: application/json" \
-  -d '{"amount": 19.99}'
+  -d '{"payee": "Netflix", "amount": 12.99, "category": "Entertainment", "date": "2025-06-01", "version": 1}'
 ```
 
 #### `DELETE /api/transactions/:id`
