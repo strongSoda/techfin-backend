@@ -63,7 +63,7 @@ If the `version` check fails, the update is ignored ensuring **write consistency
 
 1.  **Clone the repository**
     ```sh
-    git clone https://github.com/your-username/techfin-backend.git
+    git clone https://github.com/strongSoda/techfin-backend.git
     cd techfin-backend
     ```
 
